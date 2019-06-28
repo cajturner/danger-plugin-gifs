@@ -47,7 +47,7 @@ describe("gifs()", () => {
     }
 
     const customMessage = "Bad bad bad!"
-    gifs({ msg: customMessage })
+    gifs(customMessage)
 
     expect(global.message).toHaveBeenCalledWith("Bad bad bad!")
   })

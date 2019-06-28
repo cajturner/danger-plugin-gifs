@@ -9,7 +9,7 @@ export declare function markdown(message: string): void
 /**
  * Surely all PRs require a gif!
  */
-export default function gifs({msg = null: string} = {}) {
+export default function gifs(msg?: string) {
   // Replace this with the code from your Dangerfile
   const prDescription = danger.github.pr.body
   const gifRegex = /\.gif/g

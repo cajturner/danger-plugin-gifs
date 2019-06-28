@@ -7,18 +7,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/calumturner/danger-plugin-gifs.git"
+    "url": "https://github.com/cajturner/danger-plugin-gifs.git"
   },
   "bugs": {
-    "url": "https://github.com/calumturner/danger-plugin-gifs/issues"
+    "url": "https://github.com/cajturner/danger-plugin-gifs/issues"
   },
-  "homepage": "https://github.com/calumturner/danger-plugin-gifs#readme",
+  "homepage": "https://github.com/cajturner/danger-plugin-gifs#readme",
   "keywords": [
     "danger",
     "danger-plugin",
     "gifs"
   ],
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
@@ -27,8 +27,6 @@
     "commitmsg": "validate-commit-msg",
     "build": "tsc",
     "test": "jest",
-    "predocs": "rm -rf docs/",
-    "docs": "esdoc -c .esdoc.json",
     "prepublish": "npm run build",
     "semantic-release": "semantic-release",
     "prettier": "prettier",
@@ -55,9 +53,7 @@
     "typescript": "^3.5.2",
     "validate-commit-msg": "^2.12.1"
   },
-  "optionalDependencies": {
-    "esdoc": "^0.5.2"
-  },
+  "optionalDependencies": {},
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"

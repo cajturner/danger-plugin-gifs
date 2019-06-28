@@ -23,7 +23,7 @@ At a glance:
 import gifs from "danger-plugin-gifs"
 
 gifs()
-gifs({ msg: "Why no gif!" })
+gifs("Why no gif!")
 ```
 
 ## Changelog

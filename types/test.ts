@@ -1,0 +1,3 @@
+import gifs from './'
+
+gifs()
